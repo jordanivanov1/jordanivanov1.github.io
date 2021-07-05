@@ -1,0 +1,394 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+h1{
+    text-align: center;
+    font-size: 2.5rem;
+}
+h2{
+    text-align: center;
+    font-size: 1.75rem;
+}
+h3{
+    text-align: center;
+    font-size: 1.25rem;
+}
+#bo{
+    font-size: 1rem;
+}
+@media (min-width: 800px) {
+    h1{
+        text-align: center;
+        font-size: 3.5rem;
+    }
+    h2{
+        text-align: center;
+        font-size: 2.5rem;
+    }
+    h3{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    #bo{
+        font-size: 1.125rem;
+    }
+}
+
+section{
+    padding: 5em 2em;
+}
+
+
+.black{
+    color:red;
+    background-color: black;
+
+}
+.white{
+    color: black;
+}
+
+
+section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#bo{
+    display: block;
+    margin-top:60px;
+
+}
+/*nav*/
+#nav{
+    background-color: black;
+
+    position: fixed;
+    display: block;
+    top:0;
+    width: 100%;
+    box-shadow: 0px 0px 10px #555555;
+}
+
+#ime{
+    display: inline-block;
+    width: 15%;
+    margin-left: 4%;
+    font-size: 30px;
+
+}
+@media (min-width: 1101px) {
+    .nav{
+
+        display: inline-block;
+        width: 74%;
+    }
+
+    .nav ul{
+        display: flex;
+        flex-wrap: nowrap;
+        width: 100%;
+    }
+
+    .nav ul li{
+        display: inline-block;
+        width: 20%;
+        margin-left: 1%;
+        /*background-color: gray;*/
+        text-align: center;
+    }
+    .nav ul li a{
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        display: inline-block;
+        width: 100%;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+.nav-link{
+
+    color: white;
+    transition: all 0.9s linear;
+
+}
+.nav-link:active,.nav-link:hover{
+    color: red;
+}
+#pomalo1101{
+    display: none;
+}
+    #pomalo1101 a{
+        display: none;
+    }
+}
+@media (max-width: 1101px) {
+
+
+    .nav{
+        display: none;}
+
+#pomalo1101{
+    display: inline-block;
+    float: right;
+    vertical-align: center;
+    padding-right: 15%;
+}
+    #pomalo1101 a{
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+    }
+    #ime{
+        display: inline-block;
+        width: 40%;
+        padding-left: 15%;
+    }
+}
+@media (max-width: 650px) {
+
+
+    .nav{
+        display: none;}
+
+    #pomalo1101{
+        display: inline-block;
+        float: right;
+        vertical-align: center;
+
+    }
+    #pomalo1101 a{
+        text-decoration: none;
+        color: white;
+        font-size: 35px;
+    }
+    #ime{
+        display: inline-block;
+
+
+    }
+}
+
+#footer{
+
+    color: white;
+    transition: all 0.9s linear;
+
+}
+#footer:active,#footer:hover{
+    color: red;
+    background: red;
+
+}
+
+
+
+
+
+#section1{
+    background-color: white;
+    display: block;
+    width: 100%;
+
+}
+#section1 h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+@media (min-width: 1160px){
+    #section1 {
+        display: grid;
+        width: 80%;
+        grid-template-columns: 50% 50%;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+#section2{
+    display: block;
+    width: 100%;
+    padding-bottom: 200px;
+    background-image: url("sliki/pexels-negative-space-97077.jpg");
+    background-color: #555;
+
+    background-blend-mode: multiply;
+}
+#programing-leanguages{
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    justify-content: center;
+    margin-left: 4%;
+    margin-right: 4%;
+
+
+
+
+}
+#programing-leanguages div{
+    display: inline-block;
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#programing-leanguages div p{
+font-size: 1.5em;
+}
+@media (max-width: 1080px){
+    #programing-leanguages{
+        display: grid;
+        grid-template-columns: 46% 46%;
+        justify-content: center;
+        margin-left: 4%;
+        margin-right: 4%;
+    }}
+@media (max-width: 550px){
+    #programing-leanguages{
+        display: grid;
+        grid-template-columns: 92%;
+        justify-content: center;
+        margin-left: 4%;
+        margin-right: 4%;
+    }}
+
+
+
+#section3{
+    background-color: white;
+    display: block;
+    width: 100%;
+    min-height: 400px;
+}
+#red{
+    margin: 1px;
+}
+@media (min-width: 1160px){
+    #section3{
+        display: grid;
+        width: 80%;
+        grid-template-columns: 65% 35%;
+        margin: 0 auto;
+    }
+
+}
+
+#section4{
+    background-color: black;
+    display: block;
+    width: 100%;
+
+
+}
+#sliki{
+
+}
+.sliki-div{
+    display: inline-block;
+    overflow: hidden;
+    background: black;
+}
+.sliki-item{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    transition: transform 750ms cubic-bezier(.5,0,.5,1),
+    opacity 250ms linear;
+
+}
+.sliki-item:hover{
+    transform: scale(1.2);
+    opacity: 0.75;
+}
+
+#section5{
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
+
+}
+#contact{
+    display: grid;
+    grid-template-columns: 45% 55%;
+
+
+}
+#socijalni_mrezi{
+    display: inline-block;
+}
+#forma{
+    display: inline-block;
+    width: 54%;
+    margin-left: 10%;
+
+}
+.form-group{
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    padding: 5px;
+    font-size: 18px;
+    border: 1px solid gray;
+}
+textarea{
+    resize: vertical;
+}
+button[type="submit"]{
+    width: 100%;
+    border: 1px solid gray;
+    outline: none;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease background-color;
+}
+button[type="submit"]:hover{
+    background-color: lightgray;
+}
+
+footer{
+    display: block;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    height: 90px;
+    background-color: black;
+}
+#footer{
+
+    display: inline-block;
+        right: 10px;
+    bottom: 10px;
+    float: right;
+    margin-right: 10px;
+    padding: 2px 2px 1px 2px;
+    
+    border: white;
+    border-radius: 100%;
+    border-width: 2px;
+    background-color: white;
+
+}
+
+#up{
+    display: inline-block;
+    height: 64px;
+}
+footer>a{
+    margin-left: 10px;
+
+}
